@@ -1,5 +1,5 @@
-﻿hardware/Datasheet/*
-hardware/ShinaiSense/
+﻿boards/Datasheet/*
+boards/ShinaiSense/
 *.bak
 *.bck
 *.pdf
@@ -11,3 +11,5 @@ hardware/ShinaiSense/
 *-rescue.lib
 *.kicad_pcb-bak
 _saved_*.sch
+fp-info-cache
+boards/ShinaiSense/fp-info-cache

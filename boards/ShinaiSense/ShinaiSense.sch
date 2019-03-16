@@ -10,7 +10,7 @@ Date "2019-03-16"
 Rev "0"
 Comp "HES-SO//Master"
 Comment1 "Engineering: Fused FET"
-Comment2 "Reviewer: [...]"
+Comment2 "Reviewer: Steve Mermet"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -62,13 +62,13 @@ F 3 "" H 9100 2950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9100 2950 9100 2900
-Text Label 9300 650  3    50   ~ 6
+Text Label 9300 650  3    50   ~ 0
 DEC4
-Text Label 9400 650  3    50   ~ 6
+Text Label 9400 650  3    50   ~ 0
 DEC3
-Text Label 9500 650  3    50   ~ 6
+Text Label 9500 650  3    50   ~ 0
 DEC2
-Text Label 9600 650  3    50   ~ 6
+Text Label 9600 650  3    50   ~ 0
 DEC1
 $Comp
 L Device:C_Small C11
@@ -231,11 +231,11 @@ F 3 "~" H 10650 2000 50  0001 C CNN
 	1    10650 2000
 	0    -1   1    0   
 $EndComp
-Text Label 10400 2500 2    50   ~ 6
+Text Label 10400 2500 2    50   ~ 0
 ~reset
-Text Label 10400 2600 2    50   ~ 6
+Text Label 10400 2600 2    50   ~ 0
 SWDCLK
-Text Label 10400 2700 2    50   ~ 6
+Text Label 10400 2700 2    50   ~ 0
 SWDIO
 $Comp
 L Device:Antenna AE1
@@ -264,17 +264,17 @@ Wire Wire Line
 	10350 1200 10150 1200
 Wire Wire Line
 	10550 1200 10800 1200
-Text Label 6500 1100 2    50   ~ 6
+Text Label 6500 1100 2    50   ~ 0
 ~reset
 Wire Wire Line
 	10400 2500 10000 2500
-Text Label 6500 1300 2    50   ~ 6
+Text Label 6500 1300 2    50   ~ 0
 SWDCLK
 Wire Wire Line
 	10400 2600 10000 2600
 Wire Wire Line
 	10400 2700 10000 2700
-Text Label 6500 1400 2    50   ~ 6
+Text Label 6500 1400 2    50   ~ 0
 SWDIO
 Wire Wire Line
 	6500 1400 6150 1400
@@ -663,17 +663,17 @@ Wire Wire Line
 Connection ~ 3500 4200
 Wire Wire Line
 	3500 4150 3500 4200
-Text Label 3100 4850 1    50   ~ 6
+Text Label 3100 4850 1    50   ~ 0
 ~PG
-Text Label 3500 4850 1    50   ~ 6
+Text Label 3500 4850 1    50   ~ 0
 ~LBO
-Text Label 3900 4850 1    50   ~ 6
+Text Label 3900 4850 1    50   ~ 0
 STAT2
-Text Label 2700 4700 2    50   ~ 6
+Text Label 2700 4700 2    50   ~ 0
 STAT2
-Text Label 2700 4600 2    50   ~ 6
+Text Label 2700 4600 2    50   ~ 0
 ~LBO
-Text Label 2700 4400 2    50   ~ 6
+Text Label 2700 4400 2    50   ~ 0
 ~PG
 Wire Wire Line
 	2700 4400 2450 4400
@@ -685,7 +685,7 @@ Wire Wire Line
 	3100 4550 3100 4850
 Wire Wire Line
 	3500 4850 3500 4550
-Text Notes 650  7500 0    50   ~ 6
+Text Notes 650  7500 0    50   ~ 0
 XCL209F083DR\nR1= 470k, R2 = 150k Cfb = 100pF\n--> Out 3.3v
 $Comp
 L FFL:XCL209F083DR U1
@@ -858,14 +858,14 @@ Wire Notes Line
 	2800 7550 500  7550
 Wire Notes Line
 	500  7550 500  5350
-Text Notes 2150 5100 0    50   ~ 6
+Text Notes 2150 5100 0    50   ~ 0
 TODO Check R ratios
 Connection ~ 2200 5850
-Text Label 7750 2000 0    50   ~ 6
+Text Label 7750 2000 0    50   ~ 0
 IMU1_IRQ2
-Text Label 7750 2600 0    50   ~ 6
+Text Label 7750 2600 0    50   ~ 0
 ~PG
-Text Label 7750 2400 0    50   ~ 6
+Text Label 7750 2400 0    50   ~ 0
 ~LBO
 Wire Wire Line
 	7750 1800 8200 1800
@@ -877,13 +877,13 @@ Wire Wire Line
 	7750 2300 8200 2300
 Wire Wire Line
 	8200 2400 7750 2400
-Text Label 7750 2300 0    50   ~ 6
+Text Label 7750 2300 0    50   ~ 0
 STAT2
 Wire Wire Line
 	7750 2600 8200 2600
 Wire Wire Line
 	7750 1700 8200 1700
-Text Notes 550  5450 0    50   ~ 6
+Text Notes 550  5450 0    50   ~ 0
 DC-DC
 Wire Notes Line
 	500  3100 500  5300
@@ -893,7 +893,7 @@ Wire Notes Line
 	3950 5300 3950 3100
 Wire Notes Line
 	3950 3100 500  3100
-Text Notes 550  3200 0    50   ~ 6
+Text Notes 550  3200 0    50   ~ 0
 Battery Mgmnt.
 Wire Notes Line
 	500  500  2450 500 
@@ -1060,7 +1060,7 @@ Wire Wire Line
 Connection ~ 5900 2800
 Wire Wire Line
 	6500 1100 6150 1100
-Text Label 6400 2800 2    50   ~ 6
+Text Label 6400 2800 2    50   ~ 0
 ~reset
 Wire Wire Line
 	5900 3250 5900 3300
@@ -1119,7 +1119,7 @@ Wire Notes Line
 	6600 3600 5050 3600
 Wire Notes Line
 	5050 3600 5050 2300
-Text Notes 5100 2400 0    50   ~ 6
+Text Notes 5100 2400 0    50   ~ 0
 Reset
 $Comp
 L Device:LED_Small D1
@@ -1313,13 +1313,13 @@ Wire Wire Line
 	9500 3400 9500 3200
 Wire Wire Line
 	10350 3400 10350 3200
-Text Label 10800 3200 3    50   ~ 6
+Text Label 10800 3200 3    50   ~ 0
 DEC4
-Text Label 10350 3200 3    50   ~ 6
+Text Label 10350 3200 3    50   ~ 0
 DEC3
-Text Label 9950 3200 3    50   ~ 6
+Text Label 9950 3200 3    50   ~ 0
 DEC2
-Text Label 9500 3200 3    50   ~ 6
+Text Label 9500 3200 3    50   ~ 0
 DEC1
 $Comp
 L Device:C_Small C19
@@ -1421,7 +1421,7 @@ Wire Notes Line
 	6600 2250 5050 2250
 Wire Notes Line
 	5050 2250 5050 500 
-Text Notes 5100 600  0    50   ~ 6
+Text Notes 5100 600  0    50   ~ 0
 Debugger
 Wire Wire Line
 	7750 1600 8200 1600
@@ -1452,17 +1452,17 @@ F 3 "" H 10150 1450 50  0001 C CNN
 	1    10150 1450
 	-1   0    0    -1  
 $EndComp
-Text Notes 550  600  0    50   ~ 6
+Text Notes 550  600  0    50   ~ 0
 Charge Port
-Text Label 7750 1900 0    50   ~ 6
+Text Label 7750 1900 0    50   ~ 0
 IMU1_IRQ1
-Text Label 7750 1800 0    50   ~ 6
+Text Label 7750 1800 0    50   ~ 0
 IMUx_MISO
-Text Label 7750 1700 0    50   ~ 6
+Text Label 7750 1700 0    50   ~ 0
 IMUx_MOSI
-Text Label 7750 1600 0    50   ~ 6
+Text Label 7750 1600 0    50   ~ 0
 IMUx_SCK
-Text Label 7750 1500 0    50   ~ 6
+Text Label 7750 1500 0    50   ~ 0
 ~IMU2_CS
 Wire Wire Line
 	7750 1500 8200 1500
@@ -1483,19 +1483,19 @@ Wire Wire Line
 Connection ~ 6900 1200
 Wire Wire Line
 	6900 1200 6900 1300
-Text Label 7750 1400 0    50   ~ 6
+Text Label 7750 1400 0    50   ~ 0
 ~IMU1_CS
 Wire Wire Line
 	8200 1400 7750 1400
-Text Label 7750 2100 0    50   ~ 6
+Text Label 7750 2100 0    50   ~ 0
 IMU2_IRQ1
-Text Label 7750 2200 0    50   ~ 6
+Text Label 7750 2200 0    50   ~ 0
 IMU2_IRQ2
 Wire Wire Line
 	7750 2200 8200 2200
 Wire Wire Line
 	8200 2100 7750 2100
-Text Label 5950 4100 3    50   ~ 6
+Text Label 5950 4100 3    50   ~ 0
 ~IMU1_CS
 Wire Wire Line
 	4900 5200 5300 5200
@@ -1509,15 +1509,15 @@ Wire Wire Line
 	5850 4100 5850 4500
 Wire Wire Line
 	5750 4100 5750 4500
-Text Label 6850 5100 2    50   ~ 6
+Text Label 6850 5100 2    50   ~ 0
 IMU1_IRQ2
-Text Label 4900 5200 0    50   ~ 6
+Text Label 4900 5200 0    50   ~ 0
 IMU1_IRQ1
-Text Label 4900 4900 0    50   ~ 6
+Text Label 4900 4900 0    50   ~ 0
 IMUx_MISO
-Text Label 5750 4100 3    50   ~ 6
+Text Label 5750 4100 3    50   ~ 0
 IMUx_MOSI
-Text Label 5850 4100 3    50   ~ 6
+Text Label 5850 4100 3    50   ~ 0
 IMUx_SCK
 Connection ~ 5150 5050
 Wire Wire Line
@@ -1634,7 +1634,7 @@ F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMX160-D
 	1    5850 5050
 	1    0    0    -1  
 $EndComp
-Text Notes 4750 4100 0    50   ~ 6
+Text Notes 4750 4100 0    50   ~ 0
 IMU Onboard
 Wire Notes Line
 	4700 4000 4700 6400
@@ -1648,13 +1648,13 @@ Wire Notes Line
 	7000 4000 11200 4000
 Text Notes 7050 4100 0    50   ~ 0
 IMU Kensen connector
-Text Label 7050 6150 0    50   ~ 6
+Text Label 7050 6150 0    50   ~ 0
 IMU2_IRQ2
-Text Label 7050 5950 0    50   ~ 6
+Text Label 7050 5950 0    50   ~ 0
 IMU2_IRQ1
-Text Label 7050 5650 0    50   ~ 6
+Text Label 7050 5650 0    50   ~ 0
 IMUx_MISO
-Text Label 5800 7500 0    50   ~ 6
+Text Label 5800 7500 0    50   ~ 0
 IMU1_IRQ2
 Wire Wire Line
 	5800 7300 6250 7300
@@ -1666,25 +1666,25 @@ Wire Wire Line
 	5800 7200 6250 7200
 Wire Wire Line
 	5800 7100 6250 7100
-Text Label 5800 7400 0    50   ~ 6
+Text Label 5800 7400 0    50   ~ 0
 IMU1_IRQ1
-Text Label 5800 7300 0    50   ~ 6
+Text Label 5800 7300 0    50   ~ 0
 IMUx_MISO
-Text Label 5800 7200 0    50   ~ 6
+Text Label 5800 7200 0    50   ~ 0
 IMUx_MOSI
-Text Label 5800 7100 0    50   ~ 6
+Text Label 5800 7100 0    50   ~ 0
 IMUx_SCK
-Text Label 5800 7000 0    50   ~ 6
+Text Label 5800 7000 0    50   ~ 0
 ~IMU2_CS
 Wire Wire Line
 	5800 7000 6250 7000
-Text Label 5800 6900 0    50   ~ 6
+Text Label 5800 6900 0    50   ~ 0
 ~IMU1_CS
 Wire Wire Line
 	6250 6900 5800 6900
-Text Label 5800 7600 0    50   ~ 6
+Text Label 5800 7600 0    50   ~ 0
 IMU2_IRQ1
-Text Label 5800 7700 0    50   ~ 6
+Text Label 5800 7700 0    50   ~ 0
 IMU2_IRQ2
 Wire Wire Line
 	5800 7700 6250 7700
@@ -1797,7 +1797,7 @@ Wire Notes Line
 	6950 7750 5750 7750
 Wire Notes Line
 	5750 7750 5750 6650
-Text Notes 5800 6750 0    50   ~ 6
+Text Notes 5800 6750 0    50   ~ 0
 Test interface
 $Comp
 L power:+3V3 #PWR028
@@ -1853,7 +1853,7 @@ Wire Notes Line
 	5700 7750 5700 7000
 Wire Notes Line
 	5700 7000 4400 7000
-Text Notes 4450 7100 0    50   ~ 6
+Text Notes 4450 7100 0    50   ~ 0
 DRC
 $Comp
 L FFL:74LVC2G17 U8
@@ -2000,9 +2000,9 @@ F 3 "" H 10650 5950 50  0001 C CNN
 	1    10650 5950
 	-1   0    0    1   
 $EndComp
-Text Label 7050 4500 0    50   ~ 6
+Text Label 7050 4500 0    50   ~ 0
 IMUx_SCK
-Text Label 7050 4600 0    50   ~ 6
+Text Label 7050 4600 0    50   ~ 0
 IMUx_MOSI
 Wire Wire Line
 	10850 4850 10500 4850
@@ -2030,7 +2030,7 @@ $EndComp
 Wire Wire Line
 	8300 5650 8250 5650
 Connection ~ 8600 5350
-Text Label 7050 4300 0    50   ~ 6
+Text Label 7050 4300 0    50   ~ 0
 ~IMU2_CS
 Wire Wire Line
 	9200 5250 9150 5250
@@ -2198,10 +2198,10 @@ F 3 "" H 7850 4700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R16
 U 1 1 5E328B1D
 P 1050 2600
-F 0 "R?" H 991 2691 50  0000 R CNN
+F 0 "R16" H 991 2691 50  0000 R CNN
 F 1 "5.1k" H 991 2600 50  0000 R CNN
 F 2 "R:0603" H 991 2509 50  0000 R CNN
 F 3 "~" H 1050 2600 50  0001 C CNN
@@ -2209,10 +2209,10 @@ F 3 "~" H 1050 2600 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5E371720
 P 900 2900
-F 0 "#PWR?" H 900 2650 50  0001 C CNN
+F 0 "#PWR0103" H 900 2650 50  0001 C CNN
 F 1 "GND" H 988 2863 50  0000 L CNN
 F 2 "" H 900 2900 50  0001 C CNN
 F 3 "" H 900 2900 50  0001 C CNN
@@ -2220,10 +2220,10 @@ F 3 "" H 900 2900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C20
 U 1 1 5E39F20D
 P 900 2600
-F 0 "C?" H 808 2509 50  0000 R CNN
+F 0 "C20" H 808 2509 50  0000 R CNN
 F 1 "12pF" H 808 2600 50  0000 R CNN
 F 2 "C:0603" H 808 2691 50  0000 R CNN
 F 3 "~" H 900 2600 50  0001 C CNN
