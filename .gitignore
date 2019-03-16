@@ -1,0 +1,13 @@
+﻿hardware/Datasheet/*
+hardware/ShinaiSense/
+*.bak
+*.bck
+*.pdf
+*.bak
+*.log
+*.net
+*.raw
+*-cache.lib
+*-rescue.lib
+*.kicad_pcb-bak
+_saved_*.sch
