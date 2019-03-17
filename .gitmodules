@@ -1,0 +1,3 @@
+[submodule "KicadLib"]
+	path = KicadLib
+	url = https://github.com/fusedFET/KicadLib.git
